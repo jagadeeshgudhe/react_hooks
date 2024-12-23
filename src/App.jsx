@@ -1,12 +1,11 @@
-import React from 'react';
-import Timer from './useeffect';
-import FavoriteCar from './usestate';
+import React from "react";
+import Component1 from "./usecontext";
 
 function App() {
   return (
     <div>
-      <Timer />
-      <FavoriteCar />
+      <h1>React Context Example</h1>
+      <Component1 />
     </div>
   );
 }

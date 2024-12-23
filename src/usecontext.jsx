@@ -32,7 +32,7 @@ function Component3() {
 }
 
 function Component4() {
-  const user = useContext(UserContext); // Consume context here
+  const user = useContext(UserContext);
   return <h2>Welcome, {user}!</h2>;
 }
 
