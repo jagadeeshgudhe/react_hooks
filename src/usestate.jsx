@@ -1,6 +1,3 @@
-//useState -used to track state in functional components.
-//state-> here state means
-
 import React, { useState } from "react";
 
 function FavoriteCar() {
