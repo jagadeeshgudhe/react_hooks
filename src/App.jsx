@@ -1,11 +1,12 @@
-import React from "react";
-import Component1 from "./usecontext";
+
+// import Component1 from "./usecontext";
+import { TimerComponent} from "./useeffect";
 
 function App() {
   return (
     <div>
       <h1>React Context Example</h1>
-      <Component1 />
+      <TimerComponent/>
     </div>
   );
 }
